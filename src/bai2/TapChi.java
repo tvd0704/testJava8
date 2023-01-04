@@ -38,7 +38,7 @@ public class TapChi extends TaiLieu{
     public String toString() {
         return "TapChi{" +
                 "soPhatHanh=" + soPhatHanh +
-                ", thangPhatHanh=" + thangPhatHanh +
+                ", thangPhatHanh=" + thangPhatHanh +toString1() +
                 '}';
     }
 }

@@ -39,7 +39,7 @@ public class TaiLieu {
         this.soBanPhatHanh = soBanPhatHanh;
     }
 
-    public String toString() {
+    public String toString1() {
         return "TaiLieu{" +
                 "maTaiLieu='" + maTaiLieu + '\'' +
                 ", tenNhaXuatBan='" + tenNhaXuatBan + '\'' +

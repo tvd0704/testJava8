@@ -27,7 +27,7 @@ public class Bao extends TaiLieu {
     @Override
     public String toString() {
         return "Bao{" +
-                "ngayPhatHanh=" + ngayPhatHanh +
+                "ngayPhatHanh=" + ngayPhatHanh + toString1() +
                 '}';
     }
 }

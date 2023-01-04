@@ -35,7 +35,7 @@ public class Sach extends TaiLieu{
     public String toString() {
         return "Sach{" +
                 "tenTacGia='" + tenTacGia + '\'' +
-                ", soTrang=" + soTrang +
+                ", soTrang=" + soTrang + toString1() +
                 '}';
     }
 }
