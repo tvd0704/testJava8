@@ -33,6 +33,7 @@ public class Main {
                 System.out.print("enter id:");
                 id = scanner.nextLine();
                 person.setId(id);
+                hoGiaDinh.checkForDuplicateId(id);
 
                 System.out.print("enter full name:");
                 fullName = scanner.nextLine();

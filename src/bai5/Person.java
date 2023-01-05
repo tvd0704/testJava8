@@ -1,27 +1,16 @@
-package bai4;
+package bai5;
 
 public class Person {
-
-    private String id;
     private String fullName;
     private int age;
-    private String ngheNghiep;
+    private String id;
 
     public Person() {
     }
 
-    public Person(String id, String fullName, int age, String ngheNghiep) {
-        this.id = id;
+    public Person(String fullName, int age, String id) {
         this.fullName = fullName;
         this.age = age;
-        this.ngheNghiep = ngheNghiep;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
         this.id = id;
     }
 
@@ -41,25 +30,20 @@ public class Person {
         this.age = age;
     }
 
-    public String getNgheNghiep() {
-        return ngheNghiep;
+    public String getId() {
+        return id;
     }
 
-    public void setNgheNghiep(String ngheNghiep) {
-        this.ngheNghiep = ngheNghiep;
+    public void setId(String id) {
+        this.id = id;
     }
-
 
     @Override
     public String toString() {
         return "Person{" +
-                "id='" + id + '\'' +
-                ", fullName='" + fullName + '\'' +
+                "fullName='" + fullName + '\'' +
                 ", age=" + age +
-                ", ngheNghiep='" + ngheNghiep + '\'' +
+                ", id='" + id + '\'' +
                 '}';
     }
-
-
-
 }
