@@ -10,6 +10,8 @@ public class Employee {
     private String phone;
     private int employeeType;
 
+
+
     private static int employeeCount =0;
 
     public Employee() {
