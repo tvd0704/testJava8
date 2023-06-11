@@ -3,10 +3,15 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
-    Integer integer = new Integer(25);
-    Integer integer1 = new Integer(25);
+        int x =0;
+        int y =10;
+        try {
+            y /=x;
+        }
+        catch (Exception e) {
+            System.out.println("error");
+        }
 
-    System.out.println(integer.equals(integer1));
 
     }
 }
